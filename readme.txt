@@ -261,3 +261,18 @@ Si tu veux améliorer le modèle, voici quelques idées :
 2.	Essayer d'autres modèles : Par exemple, tu peux tester des modèles comme les forêts aléatoires ou XGBoost pour voir s'ils améliorent les résultats.
 3.	Évaluer avec des métriques supplémentaires : Par exemple, en traçant des courbes de régression ou en utilisant des techniques comme la validation croisée pour mieux évaluer le modèle.
 
+## Le principe de la regression linear_model
+
+La régression linéaire est un modèle simple pour prédire des valeurs continues en fonction de variables prédictives.
+
+On évalue les performances du modèle en utilisant des métriques telles que RMSE et MAPE.
+
+La normalisation des variables permet de lier les coefficients de la régression linéaire au poids relatif des prédicteurs.
+
+Il est important de s'assurer que la relation entre la variable cible et les prédicteurs est linéaire avant d'utiliser la régression linéaire.
+
+La régression polynomiale permet de capturer des relations non linéaires entre les variables en ajoutant des termes quadratiques ou d'ordre supérieur.
+
+L'utilisation de  train_test_split  permet de diviser les données en sous-ensembles d'entraînement et de test pour évaluer le modèle.
+
+Le choix du paramètre  random_state  affecte la reproductibilité des résultats lors de la séparation des données en sous-ensembles.

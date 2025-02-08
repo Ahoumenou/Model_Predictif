@@ -32,7 +32,7 @@ r2 = r2_score(y_test, y_pred)
 
 print(f"Erreur quadratique moyenne (MSE) : {mse}")
 print(f"Score R² : {r2}")
-yO
+
 # 7. Visualisation des résultats
 plt.scatter(y_test, y_pred)
 plt.plot([min(y_test), max(y_test)], [min(y_test), max(y_test)], color='green', linestyle='dotted')
